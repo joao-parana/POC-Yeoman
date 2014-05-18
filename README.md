@@ -16,6 +16,15 @@
     bower install angular-ui 
     # Listando mensagem de Help
     bower
+    # retirando a dependência Deafult do JQuery 
+    # Elimino a linha "jquery": "~1.11.0",
+    # Já que : Native AngularJS (Angular) directives for Twitter's Bootstrap. 
+    # Small footprint (5kB gzipped!), no 3rd party JS dependencies 
+    # (jQuery, bootstrap JS) required! 
+    # See: http://angular-ui.github.io/bootstrap
+    # Além disso Angular JS tem sua propria implementação do JQuery :
+    # Veja:  https://docs.angularjs.org/api/ng/function/angular.element
+    vi bower.json
   
 ##### Testando a App
 
