@@ -1,0 +1,12 @@
+{
+    "typescript": {
+        "target": "ES5",
+        "module": "NONE",
+        "noImplicitAny": true,
+        "sources" : [
+            "app/declarations/**/*.ts",
+            "app/scripts/**/*.ts",
+            "app/scripts/controllers/**/*.ts"
+        ]
+    }
+}
