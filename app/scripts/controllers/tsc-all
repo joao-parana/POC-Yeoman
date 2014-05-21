@@ -1,0 +1,5 @@
+set -x
+tsc *.ts
+cd ..
+tsc *.ts
+

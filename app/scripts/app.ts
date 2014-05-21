@@ -6,7 +6,14 @@ angular.module('pocYoApp',
 			$routeProvider.when('/', {
 				templateUrl : 'views/main.html',
 				controller : 'MainCtrl'
-			}).otherwise({
-				redirectTo : '/'
+			}).when('/contact', {
+                templateUrl : 'views/contact.html',
+                controller : 'MainCtrl'
+            }).when('/about', {
+                templateUrl : 'views/about.html',
+                controller : 'MainCtrl'
+            }).otherwise({
+				templateUrl : 'views/404.html',
+                controller : 'MainCtrl'
 			});
 		});
